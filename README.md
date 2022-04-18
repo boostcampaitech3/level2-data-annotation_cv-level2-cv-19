@@ -19,7 +19,7 @@
 └─ visualization.py
 ```
 ```
-└─ input/data
+└─ /opt/ml/input/data
     ├─ ICDAR2017_Korean
     │   ├─ ufo
     │   │    └─ train.json
