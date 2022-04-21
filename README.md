@@ -124,7 +124,7 @@ python visualization.py --root_dir {데이터셋 주소}
 
 <br />
 
-## Evaluation
+## 🏆 Evaluation
 
 |LB f1|recall|precision|dataset|epoch|leraning rate|  
 | :--: | :--: | :--: | :--: | :--: | :--: |
@@ -135,8 +135,9 @@ python visualization.py --root_dir {데이터셋 주소}
 |0.6838|0.6007|0.7937|ICDAR19_MLT|100|0.001|  
 |0.6763|0.5821|0.8068|ICDAR19_MLT|200+60|0.0005|  
 |0.6749|0.5870|0.7937|ICDAR19_MLT|70|0.0001|
+|0.7022|0.6040|0.8385|ICDAR17|300|0.0001|
 
 #### Final Score
 |Public LB|Private LB|
 | :--: | :--: |
-|0.6838| |
+|0.7022| |
