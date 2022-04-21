@@ -1,10 +1,5 @@
-cd /opt/ml/input/data
-mkdir ICDAR19_MLT
-cd /opt/ml/input/data/ICDAR19_MLT
-mkdir images
-mkdir ufo
-
-cd /opt/ml/code
+mkdir /opt/ml/input/data/ICDAR19_MLT
+mkdir /opt/ml/input/data/ICDAR19_MLT/images /opt/ml/input/data/ICDAR19_MLT/ufo
 
 wget https://datasets.cvc.uab.es/rrc/ImagesPart1.zip --no-check-certificate
 wget https://datasets.cvc.uab.es/rrc/ImagesPart2.zip --no-check-certificate
