@@ -105,7 +105,8 @@ python convert_mlt_19.py
 
 ##### Train
 ```
-python train.py --data_dir {데이터셋 주소} --learning_rate 1e-3 --batch_size 32 --max_epoch 200 --wandb_name {Wandb 프로젝트 이름}
+python train.py --data_dir {데이터셋 주소} --learning_rate 1e-3 --batch_size 32 --max_epoch 200 
+                --wandb_name {Wandb 프로젝트 이름}
 ```
 
 ##### Visualization
@@ -116,14 +117,15 @@ python visualization.py --root_dir {데이터셋 주소}
 <br />
 
 ## Evaluation
-|LB f1|recall|precision|dataset|epoch|leraning rate|
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-|0.4593|0.3461|0.6825|ICDAR17_Korean|200|0.001|
-|0.5633|0.4517|0.7482|ICDAR17_Korean|1000|0.005|
-|0.5663|0.4560|0.7469|ICDAR17_Korean|1000|0.0005|
-|0.6690|0.5735|0.8025|ICDAR19_MLT|200|0.0005|
-|0.6838|0.6007|0.7937|ICDAR19_MLT|100| |
-|0.6763|0.5821|0.8068|ICDAR19_MLT|200+60|0.0005|
+
+|LB f1|recall|precision|dataset|epoch|leraning rate|  
+| :--: | :--: | :--: | :--: | :--: | :--: |
+|0.4593|0.3461|0.6825|ICDAR17_Korean|200|0.001|  
+|0.5633|0.4517|0.7482|ICDAR17_Korean|1000|0.005|  
+|0.5663|0.4560|0.7469|ICDAR17_Korean|1000|0.0005|  
+|0.6690|0.5735|0.8025|ICDAR19_MLT|200|0.0005|  
+|0.6838|0.6007|0.7937|ICDAR19_MLT|100|0.001|  
+|0.6763|0.5821|0.8068|ICDAR19_MLT|200+60|0.0005|  
 
 #### Final Score
 |Public LB|Private LB|
