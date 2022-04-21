@@ -90,6 +90,14 @@
 <br />
 
 ## 💻 How to use
+##### Install libraries
+```
+pip install -r requirement.txt
+
+apt-get update
+apt-get install ffmpeg libsm6 libxext6 -y
+```
+
 ##### Download ICDAR19_MLT
 ```
 mkdir /opt/ml/input/data/ICDAR19_MLT
@@ -126,6 +134,7 @@ python visualization.py --root_dir {데이터셋 주소}
 |0.6690|0.5735|0.8025|ICDAR19_MLT|200|0.0005|  
 |0.6838|0.6007|0.7937|ICDAR19_MLT|100|0.001|  
 |0.6763|0.5821|0.8068|ICDAR19_MLT|200+60|0.0005|  
+|0.6749|0.5870|0.7937|ICDAR19_MLT|70|0.0001|
 
 #### Final Score
 |Public LB|Private LB|
