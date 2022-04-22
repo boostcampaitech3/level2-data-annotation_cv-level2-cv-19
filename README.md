@@ -29,11 +29,11 @@
 <br />
 
 ## 📝 Members
-- `권혁산` &nbsp; 
-- `김대유` &nbsp;    
-- `김찬민` &nbsp; 
-- `이상진` &nbsp;  
-- `정효재` &nbsp; 
+- `권혁산` &nbsp; Visualization 코드 작성, F1 Score 향상, 데이터 코드 전처리
+- `김대유` &nbsp; EAST model 및 프로젝트 구조 이해
+- `김찬민` &nbsp; ICDAR17_MLT 데이터셋 다운로드, ICDAR17 ,19 학습
+- `이상진` &nbsp; ICDAR19_MLT 데이터셋 다운로드, ICDAR19_MLT 학습
+- `정효재` &nbsp; Practice Dataset, EDA & Debugging
 
 <br />
 
@@ -132,7 +132,7 @@ python visualization.py --root_dir {데이터셋 주소}
 |ICDAR17 Korean|1000|5e-4|0.4560|0.7469|0.5663|0.5099|
 |ICDAR19 MLT|260|5e-4|0.5821|0.8068|0.6763|0.6629|
 |ICDAR19 MLT|100|1e-3|0.6007|0.7937|0.6838|0.6720|
-|ICDAR17|300|1e-3|0.6040|0.8385|0.7022|0.6949|
+|ICDAR17|230|1e-3|0.6040|0.8385|0.7022|0.6949|
 
 #### Final Score
 | |Public LB|Private LB|
